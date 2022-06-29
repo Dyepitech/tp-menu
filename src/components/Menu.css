@@ -1,0 +1,79 @@
+.police {
+    font-family: 'Inter', sans-serif;
+}
+
+.menu-title {
+    display: inline-block;
+    transform: skew(-18deg);
+    color: white;
+}
+
+.bg-purple {
+    background-color: #6415ff !important;
+}
+
+.text-color {
+    color: #243e63;
+}
+
+.pill {
+    position: absolute;
+    top: 48%;
+    left: 2%;
+    z-index: 1;
+}
+
+.checked {
+    color: orange;
+    margin-right: 5px;
+    margin-left: 10px;
+} 
+
+.btn-primary {
+    background-color: #6415ff !important;
+    border-color: #6415ff !important;
+}
+
+.card-body {
+    background-color:#edf2f7;
+}
+
+.card-img-top:hover + .button, .button:hover {
+    display: block;
+    position: absolute;
+    left: 56px;
+    right: 0px;
+    top: 84px;
+    width: 53%;
+    text-align: center;
+    background-color: #6415ff;
+    padding: 6px;
+    border-radius: 6px 6px 6px 6px;
+    font-weight: bold;
+    color: white;
+}
+
+.purple {
+    color: #6415ff !important;
+}
+
+.card-img-top:hover {
+    filter: opacity(40%);
+    -webkit-filter: opacity(40%);
+    -moz-filter: opacity(40%);
+
+}
+
+.button {
+    display: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.success {
+    color: green;
+    text-align: center;
+    font-size: 26px;
+}
